@@ -1,0 +1,139 @@
+
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333; /* Text color */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  nav ul li a:hover {
+    color: #007BFF; /* Change color on hover */
+  }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+      display: flex;
+  flex-direction: column;
+  background:linear-gradient(#e8caca,#dfb556,#56e8ce);
+      }
+      @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .animated-text {
+      animation: fadeIn 2s ease-in-out;
+      text-align:center;
+      width:50%;
+      font-family:'Noto Sans';
+      color:#755232;
+    }
+     .a{
+      width:50%;
+      font-size:20px;
+      font-family: 'Noto Sans';
+      color:#4c4f25;
+      text-align: center;
+
+    }
+    .b{
+      color:white;
+      font-family:'Times New Roman', Times, serif;
+      width:50%;
+      font-size: 20px;
+      border:#333;
+      background:linear-gradient(#5170ff,#ff66c4)
+    
+    }
+    
+    .d{
+      width:75%;
+      font-size:18px;
+      font-family: 'Noto Sans';
+      color:#4c4f25;
+
+    }
+    .e{
+      border:black;
+      width:50%;
+      display:inline-block;
+      text-align:center;
+      
+    }
+    .f{
+      text-align:center;
+
+      font-size:18px;
+      font-family: 'Noto Sans';
+      color:#4c4f25;
+      display:inline-block;
+    }
+    .g{
+      text-align:left;
+      font-size:18px;
+      font-family: 'Noto Sans';
+      color:#4c4f25;
+    }
+    .h{
+      text-align: left; /* Align text within the content to the left */
+      padding: 20px;
+      font-size:18px;
+      font-family: 'Noto Sans';
+      width:50%;
+      border:#333;
+      color:#540ce3;
+      background-color:rgb(137, 232, 239);
+
+    }
+   .p{
+    image-orientation: 0grad;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+   }
+      
+      header {
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+      }
+      footer {
+        padding: 20px;
+        text-align:center;
+        margin-top: auto;
+      }
+      
+      .social-icons a {
+        margin: 0 10px;
+      }
+      
+      .social-icons img {
+        width: 40px; /* Adjust the size of the social media icons */
+        height: 40px;
+        border-radius: 50%; /* Make the icons circular */
+        transition: transform 0.3s ease; /* Add a subtle hover effect */
+      }
+      
+      .social-icons img:hover {
+        transform: scale(1.2); /* Increase the size on hover */
+      }
